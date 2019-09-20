@@ -14,10 +14,17 @@ main {
     background-size: contain;
 }
 
-.search-bar input{
+.search-bar input {
     border: none;
     line-height: 34px;
     width: 487px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-bar input:required {
+    border: none;
 }
 
 .search-buttons {
