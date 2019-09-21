@@ -23,10 +23,6 @@ main {
     outline: none;
 }
 
-.search-bar input:required {
-    border: none;
-}
-
 .search-buttons {
     line-height: 3em;
 }
@@ -40,4 +36,67 @@ main {
     background-color: #f3f3f3;
     border: none;
     margin: 5px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.nav-list li {
+    display: inline;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+    font-size: 13px;    
+}
+
+.nav-list li a{
+    padding: 14px 5px;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.nav-image {
+    margin-top: 10px;
+}
+
+footer {
+    border: none;
+    background: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    line-height: 40px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);    
+}
+
+.footer-upper-text {    
+    padding-left: 27px;    
+    border: 1px solid #e4e4e4;
+}
+
+.footer-bottom-text {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 2em;
+    text-align: left;
+}
+
+.footer-bottom-text li {
+    display: inline-block;
+    vertical-align: middle;
+    font-family: Arial, sans-serif;
+    font-size: 13px;   
+}
+
+.footer-bottom-text li a {
+    padding-right: 2em;
+    text-decoration: none;
+    color: #5f6368;
+    line-height: 0px;
 }
